@@ -1,0 +1,54 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "IIIF Workshop - Day Three",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "Four astronauts aboard NASA’s Orion spacecraft atop the SLS (Space Launch System) rocket launch on the agency’s Artemis II test flight, Wednesday, April 1, 2026, from Launch Complex 39B at NASA’s Kennedy Space Center in Florida. Artemis II lifted off at 6:35 p.m. ET. Artemis II is the first crewed mission of the agency’s Artemis campaign. The mission will send NASA astronauts Reid Wiseman, Victor Glover, and Christina Koch and CSA (Canadian Space Agency) astronaut Jeremy Hansen on an approximately 10-day journey around the Moon and back to Earth.",
+    "@language" : "en"
+  } ],
+  "license" : "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+  "attribution" : "NASA",
+  "sequences" : [ {
+    "@id" : "http://e7a6b2cc-4fb7-4d71-887c-7b96bd8698cd",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://aa049f78-9f11-4b61-9a7b-caea0673d27c",
+      "@type" : "sc:Canvas",
+      "label" : "Artemis II",
+      "height" : 3222,
+      "width" : 2148,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://ffee2ed7-bb60-48a8-9b5b-a0f822a4dfa5",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archive.org/iiif/afrc-2026-0071-15-orig/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archive.org/iiif/afrc-2026-0071-15-orig",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "tif", "jpg", "gif", "png" ],
+              "maxArea" : 6920856,
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 3222,
+          "width" : 2148
+        },
+        "on" : "http://aa049f78-9f11-4b61-9a7b-caea0673d27c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
