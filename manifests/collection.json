@@ -1,0 +1,13 @@
+{
+  "id" : "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in freyesdulib/IIIFworkshop-Artemis-II-manifest project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/manifests/manifest.json",
+    "label" : "IIIF Workshop - Day Three"
+  } ]
+}
