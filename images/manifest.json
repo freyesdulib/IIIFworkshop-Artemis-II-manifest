@@ -7,5 +7,87 @@
             "All images loaded in freyesdulib/IIIFworkshop-Artemis-II-manifest project"
         ]
     },
-    "items": []
+    "items": [
+        {
+            "id": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig/canvas/",
+            "type": "Canvas",
+            "label": {
+                "none": [
+                    "AFRC2026-0071-15-orig"
+                ]
+            },
+            "height": 3222,
+            "width": 2148,
+            "items": [
+                {
+                    "id": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig/annotation/AnnoPage",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig/annotation/",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "body": {
+                                "id": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig/full/max/0/default.jpg",
+                                "type": "Image",
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 68,
+                                                "height": 101
+                                            },
+                                            {
+                                                "width": 135,
+                                                "height": 202
+                                            },
+                                            {
+                                                "width": 269,
+                                                "height": 403
+                                            },
+                                            {
+                                                "width": 537,
+                                                "height": 806
+                                            },
+                                            {
+                                                "width": 1074,
+                                                "height": 1611
+                                            },
+                                            {
+                                                "width": 2148,
+                                                "height": 3222
+                                            }
+                                        ],
+                                        "profile": "level0",
+                                        "width": 2148,
+                                        "id": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig",
+                                        "type": "ImageService3",
+                                        "@context": "http://iiif.io/api/image/3/context.json",
+                                        "height": 3222
+                                    }
+                                ],
+                                "format": "image/jpeg"
+                            },
+                            "target": "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig/canvas/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }

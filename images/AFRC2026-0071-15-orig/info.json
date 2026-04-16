@@ -1,0 +1,33 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 68,
+    "height" : 101
+  }, {
+    "width" : 135,
+    "height" : 202
+  }, {
+    "width" : 269,
+    "height" : 403
+  }, {
+    "width" : 537,
+    "height" : 806
+  }, {
+    "width" : 1074,
+    "height" : 1611
+  }, {
+    "width" : 2148,
+    "height" : 3222
+  } ],
+  "profile" : "level0",
+  "width" : 2148,
+  "id" : "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/images/AFRC2026-0071-15-orig",
+  "type" : "ImageService3",
+  "@context" : "http://iiif.io/api/image/3/context.json",
+  "height" : 3222
+}
