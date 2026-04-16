@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/annotations/333c371988b4a82199dabb0d21d3d986.json" ],
+  "@id" : "https://freyesdulib.github.io/IIIFworkshop-Artemis-II-manifest/annotations/collection.json",
+  "label" : "All annotations loaded in freyesdulib/IIIFworkshop-Artemis-II-manifest project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
